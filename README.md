@@ -12,10 +12,10 @@ Mobile Chrome suspends background tabs aggressively. When you tap "Send" in Sill
 
 Chrome exempts tabs that are "playing audible media" from background suspension. This extension plays a stream of imperceptible white-noise pulses (~40ms burst every 5s, ~1.5% amplitude) over an `<audio>` element so:
 
-- Chrome shows the tab speaker icon ✅
-- Android shows the media session in the notification shade ✅
-- The tab survives in the background ✅
-- Human ear and phone speaker barely register anything 🤫
+- Chrome shows the tab speaker icon
+- Android shows the media session in the notification shade
+- The tab survives in the background
+- Human ear and phone speaker barely register anything
 
 A near-silent (~-66 dB) white-noise background runs between pulses to keep Chrome's audio detector happy. Pure silence does not work (Chrome treats a silent audio stream as no audio).
 
@@ -30,7 +30,7 @@ In SillyTavern:
    https://github.com/TeaBay/SillyTavern-Keepalive
    ```
 4. After install, **tap anywhere or send a message once** to activate (browser autoplay policy requires a user gesture)
-5. Check that your Chrome tab now shows a 🔊 speaker icon
+5. Check that your Chrome tab now shows a speaker icon
 
 ## Verify It Works
 
