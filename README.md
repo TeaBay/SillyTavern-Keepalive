@@ -1,5 +1,7 @@
 # SillyTavern Keep Alive (Mobile)
 
+English | [繁體中文](README.zh-TW.md)
+
 A SillyTavern extension that prevents Android Chrome from suspending the SillyTavern tab when you switch apps, so that long generations finish even when SillyTavern is in the background.
 
 ## The Problem
