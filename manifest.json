@@ -1,0 +1,12 @@
+{
+    "display_name": "Keep Alive (Mobile)",
+    "loading_order": 100,
+    "requires": [],
+    "optional": [],
+    "js": "index.js",
+    "author": "TeaBay",
+    "version": "1.1.0",
+    "homePage": "https://github.com/TeaBay/SillyTavern-Keepalive",
+    "minimum_client_version": "1.12.0",
+    "description": "Keeps SillyTavern alive on Android Chrome by playing imperceptible white-noise pulses, exempting the tab from background suspension."
+}
